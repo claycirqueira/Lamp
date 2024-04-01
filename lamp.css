@@ -1,10 +1,17 @@
 header,
 main{
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column;
+    
 }
 
 button{
-    width: 110px;
+    width: 210px;
+    height: 40px;
+    display: block;
+    padding: 10px;
+    margin: 8px;
+
 }
