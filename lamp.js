@@ -2,6 +2,7 @@
 const turnOn = document.getElementById ( 'turnOn' );
 const turnOff = document.getElementById ( 'turnOff' );
 const lamp = document.getElementById ( 'lamp' );
+const turnBroken = document.getElementById( 'turnBroken');
 
 //procura pela string 'quebrada no atributo src'
 function isLampBroken (){
@@ -30,6 +31,7 @@ function lampBroken (){
 //eventos de clique e mouseover
 turnOn.addEventListener ( 'click', lampOn );
 turnOff.addEventListener ( 'click', lampOff );
+turnBroken.addEventListener ( 'click', lampBroken );
 lamp.addEventListener ( 'mouseover', lampOn );
 lamp.addEventListener ( 'mouseleave', lampOff );
 lamp.addEventListener ( 'dblclick', lampBroken );
